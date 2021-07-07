@@ -32,7 +32,7 @@ The hype around driverless cars has grown rapidly over the past several years, w
         <th><p align="center">
            <a href=""><img src="obj.png" alt="Overview" width="60%" height="60%"></a>
            <br>Object Detection
-           <br><a href="">(code)</a>
+           <br><a href="https://github.com/BK3820/Autonomous_car/tree/main/object_detection">(code)</a>
         </p>
     </th>
        <th><p align="center">
