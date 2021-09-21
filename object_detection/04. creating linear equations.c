@@ -9,7 +9,7 @@ using namespace std;
 using namespace cv;
 using namespace raspicam;
 
-// Image Processing variables
+
 Mat frame, Matrix, framePers, frameGray, frameThresh, frameEdge, frameFinal, frameFinalDuplicate, frameFinalDuplicate1;
 Mat ROILane, ROILaneEnd;
 int LeftLanePos, RightLanePos, frameCenter, laneCenter, Result, laneEnd;
@@ -26,7 +26,7 @@ Point2f Source[] = {Point2f(40,135),Point2f(360,135),Point2f(0,185), Point2f(400
 Point2f Destination[] = {Point2f(100,0),Point2f(280,0),Point2f(100,240), Point2f(280,240)};
 
 
-//Machine Learning variables
+
 CascadeClassifier Stop_Cascade;
 Mat frame_Stop, RoI_Stop, gray_Stop;
 vector<Rect> Stop;
