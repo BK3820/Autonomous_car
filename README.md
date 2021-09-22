@@ -82,6 +82,7 @@ There will be input, hidden and output layers, there will be four nodes in the o
 OpenCV will be used to train the neural network. After training the weights will be stored in an XML file and for generating predictions the same neural network will be created and loaded with the trained XML file. For signal and stop sign detection that is part of object detection will be done using a shape-based approach; Haar feature-based cascade classifier will be used for object detection. Since each object requires its classifier Haar cascade is used.
 
 The Arduino board will be used to imitate button press actions. Four Arduino pins will be used to connect four chip pins on the RC remote controller, corresponding to forward, reverse, left, and right actions respectively. The Arduino will be connected to the computer through USB and the computer will send the output commands and write out low or high signals, simulating button press actions to drive the car autonomously.
+<a href=""><img src="Screenshot 2021-08-28 093418.png" alt="Overview" width="60%" height="60%"></a>
 
 As seen in the above circuit diagram robocar chassis will be mounted with four drive motors. the drive motors will be controlled by the H bridge for maintaining speed and direction. the power bank will be the primary source of power supply for all components in the car. Here Arduino will be acting as a slave device that will be controlled by the raspberry pi. apparently raspberry pi acts as the master device. For lane detection, a Pi camera module is connected to the raspberry pi. Above all the circuit board acts as the centralized part which handles the input and output between the components through header pins and USB cable, instead of gaining power supply directly from the power bank.
 
@@ -118,12 +119,6 @@ As mentioned earlier the above-given circuit board acts a significant role in th
 [12] [Igor Ciganovic]. (2017, October 26). Self-Driving Car AI [Video File]. Retrieved from https://www.youtube.com/watch?v=W2hugeCLAKI
 
 
-
-## `Language and Library used`
-
-- Machine learning(Neural Networks)
-- C
-- Open cv
 
 
 
