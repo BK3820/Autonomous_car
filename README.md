@@ -86,7 +86,7 @@ The Arduino board will be used to imitate button press actions. Four Arduino pin
 
 As seen in the above circuit diagram robocar chassis will be mounted with four drive motors. the drive motors will be controlled by the H bridge for maintaining speed and direction. the power bank will be the primary source of power supply for all components in the car. Here Arduino will be acting as a slave device that will be controlled by the raspberry pi. apparently raspberry pi acts as the master device. For lane detection, a Pi camera module is connected to the raspberry pi. Above all the circuit board acts as the centralized part which handles the input and output between the components through header pins and USB cable, instead of gaining power supply directly from the power bank.
 
-
+<a href=""><img src="IMG_20210823_143111.jpg" alt="Overview" width="60%" height="60%"></a>
 As mentioned earlier the above-given circuit board acts a significant role in the whole project -the four header pins help us to provide power supply to Arduino and the USB cable helps to produce power supply to raspberry pi, the reason the capacitor is placed in the circuit board is that as sometimes the power supply gets fluctuated which eventually keep on rebooting the raspberry pi, hence to avoid such circumstances A 1000 microfarad 25-volt capacitor is placed
 
 
